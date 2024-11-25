@@ -36,7 +36,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             {/* Linkedin icon */}
             <IconClickableWithAnimation Icon={LinkedinIcon} href={"https://www.linkedin.com/in/therahulyele"} />
             {/* Instagram Icon */}
-            <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/therahulyele/"} /> 
+            <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/therahulyele/"} />
           </div>
           <div className="h-28 w-0.5 bg-gray-400"></div>
         </div>
@@ -60,7 +60,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             }}
             className=""
           >
-            <a href="mailto:therahulyele@gmail.com" target={"_blank"} rel="noreferrer">
+            <a href="mailto:contact@therahulyele.com" target={"_blank"} rel="noreferrer">
               <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">
                 therahulyele<span className="text-AAsecondary">@</span>gmail<span className="text-AAsecondary">.</span>com
               </span>
