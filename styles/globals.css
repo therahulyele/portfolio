@@ -14,10 +14,11 @@
     scroll-behavior: smooth;
   }
 }
+
 @layer utilities {
   body::-webkit-scrollbar {
     width: 0.4em;
-    background-color: #0b192f;
+    background-color: #30130d;
   }
 
   body::-webkit-scrollbar-thumb {
@@ -26,6 +27,7 @@
     border-radius: 40px;
   }
 }
+
 html,
 body {
   padding: 0;
